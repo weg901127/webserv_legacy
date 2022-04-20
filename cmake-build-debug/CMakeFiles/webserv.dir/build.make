@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /goinfre/gilee/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /goinfre/gilee/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gilee/project/webserv_legacy
+CMAKE_SOURCE_DIR = /Users/gilee/project/webserv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gilee/project/webserv_legacy/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gilee/project/webserv/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/webserv.dir/depend.make
@@ -72,28 +72,44 @@ include CMakeFiles/webserv.dir/flags.make
 CMakeFiles/webserv.dir/main.cpp.o: CMakeFiles/webserv.dir/flags.make
 CMakeFiles/webserv.dir/main.cpp.o: ../main.cpp
 CMakeFiles/webserv.dir/main.cpp.o: CMakeFiles/webserv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gilee/project/webserv_legacy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webserv.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webserv.dir/main.cpp.o -MF CMakeFiles/webserv.dir/main.cpp.o.d -o CMakeFiles/webserv.dir/main.cpp.o -c /Users/gilee/project/webserv_legacy/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gilee/project/webserv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/webserv.dir/main.cpp.o"
+	/Applications/Xcode_13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webserv.dir/main.cpp.o -MF CMakeFiles/webserv.dir/main.cpp.o.d -o CMakeFiles/webserv.dir/main.cpp.o -c /Users/gilee/project/webserv/main.cpp
 
 CMakeFiles/webserv.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserv.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gilee/project/webserv_legacy/main.cpp > CMakeFiles/webserv.dir/main.cpp.i
+	/Applications/Xcode_13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gilee/project/webserv/main.cpp > CMakeFiles/webserv.dir/main.cpp.i
 
 CMakeFiles/webserv.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserv.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gilee/project/webserv_legacy/main.cpp -o CMakeFiles/webserv.dir/main.cpp.s
+	/Applications/Xcode_13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gilee/project/webserv/main.cpp -o CMakeFiles/webserv.dir/main.cpp.s
+
+CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o: CMakeFiles/webserv.dir/flags.make
+CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o: ../HeaderFieldInfo.cpp
+CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o: CMakeFiles/webserv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gilee/project/webserv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o"
+	/Applications/Xcode_13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o -MF CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o.d -o CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o -c /Users/gilee/project/webserv/HeaderFieldInfo.cpp
+
+CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.i"
+	/Applications/Xcode_13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gilee/project/webserv/HeaderFieldInfo.cpp > CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.i
+
+CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.s"
+	/Applications/Xcode_13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gilee/project/webserv/HeaderFieldInfo.cpp -o CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.s
 
 # Object files for target webserv
 webserv_OBJECTS = \
-"CMakeFiles/webserv.dir/main.cpp.o"
+"CMakeFiles/webserv.dir/main.cpp.o" \
+"CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o"
 
 # External object files for target webserv
 webserv_EXTERNAL_OBJECTS =
 
 webserv: CMakeFiles/webserv.dir/main.cpp.o
+webserv: CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o
 webserv: CMakeFiles/webserv.dir/build.make
 webserv: CMakeFiles/webserv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gilee/project/webserv_legacy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webserv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gilee/project/webserv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable webserv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webserv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +121,6 @@ CMakeFiles/webserv.dir/clean:
 .PHONY : CMakeFiles/webserv.dir/clean
 
 CMakeFiles/webserv.dir/depend:
-	cd /Users/gilee/project/webserv_legacy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gilee/project/webserv_legacy /Users/gilee/project/webserv_legacy /Users/gilee/project/webserv_legacy/cmake-build-debug /Users/gilee/project/webserv_legacy/cmake-build-debug /Users/gilee/project/webserv_legacy/cmake-build-debug/CMakeFiles/webserv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/gilee/project/webserv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gilee/project/webserv /Users/gilee/project/webserv /Users/gilee/project/webserv/cmake-build-debug /Users/gilee/project/webserv/cmake-build-debug /Users/gilee/project/webserv/cmake-build-debug/CMakeFiles/webserv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/webserv.dir/depend
 

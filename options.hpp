@@ -6,7 +6,7 @@
 #define WEBSERV_OPTIONS_HPP
 
 #include <getopt.h>
-
+#include "HTTPHeaderField.hpp"
 #define USAGE "[--port=n] [--chroot --user=u --group=g] <docroot>"
 int debug_mode = 0;
 

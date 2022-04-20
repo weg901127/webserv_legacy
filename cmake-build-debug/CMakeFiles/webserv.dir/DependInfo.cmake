@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/gilee/project/webserv_legacy/main.cpp" "CMakeFiles/webserv.dir/main.cpp.o" "gcc" "CMakeFiles/webserv.dir/main.cpp.o.d"
+  "/Users/gilee/project/webserv/HeaderFieldInfo.cpp" "CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o" "gcc" "CMakeFiles/webserv.dir/HeaderFieldInfo.cpp.o.d"
+  "/Users/gilee/project/webserv/main.cpp" "CMakeFiles/webserv.dir/main.cpp.o" "gcc" "CMakeFiles/webserv.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
